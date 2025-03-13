@@ -1,0 +1,11 @@
+time="2025-03-09T03:16:19+01:00" level=info msg="Firewall rule added" firewallRule="map[caName: caSha: direction:outgoing endPort:0 groups:[] host:any ip: proto:0 startPort:0]"
+time="2025-03-09T03:16:19+01:00" level=info msg="Firewall rule added" firewallRule="map[caName: caSha: direction:incoming endPort:0 groups:[] host:any ip: proto:0 startPort:0]"
+time="2025-03-09T03:16:19+01:00" level=info msg="Firewall started" firewallHash=21716b47a7a140e448077fe66c31b4b42f232e996818d7dd1c6c4991e066dbdb
+time="2025-03-09T03:16:19+01:00" level=info msg="Main HostMap created" network=192.168.80.3/24 preferredRanges="[]"
+time="2025-03-09T03:16:19+01:00" level=info msg="UDP hole punching enabled"
+time="2025-03-09T03:16:19+01:00" level=info msg="Loaded send_recv_error config" sendRecvError=always
+time="2025-03-09T03:16:19+01:00" level=info msg="Nebula interface is active" build=1.6.1 interface=nebula network=192.168.80.3/24 udpAddr="0.0.0.0:4242"
+time="2025-03-09T03:16:19+01:00" level=info msg="Handshake message sent" handshake="map[stage:1 style:ix_psk0]" initiatorIndex=3321603157 udpAddrs="[52.232.40.228:4242]" vpnIp=192.168.80.4
+time="2025-03-09T03:16:19+01:00" level=info msg="Handshake message received" certName=nest_lighthouse durationNs=45004471 fingerprint=b129ac94f9d4575aad4937501909c6c1690265fdec7e16595d695623cacf0a2b handshake="map[stage:2 style:ix_psk0]" initiatorIndex=3321603157 issuer=ced1796b011774f425d029f0490a690cd70e84da5ea4a83a4273525f8080a2ba remoteIndex=3321603157 responderIndex=2245502631 sentCachedPackets=1 udpAddr="52.232.40.228:4242" vpnIp=192.168.80.4
+time="2025-03-09T03:16:23+01:00" level=info msg="Caught signal, shutting down" signal=interrupt
+time="2025-03-09T03:16:23+01:00" level=info msg=Goodbye
